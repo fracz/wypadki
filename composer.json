@@ -1,0 +1,6 @@
+{
+    "require": {
+        "components/jquery": "dev-master",
+        "components/jqueryui": "dev-master"
+    }
+}
