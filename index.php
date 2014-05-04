@@ -20,7 +20,8 @@
 <div id="tabs">
 <?php 
 	$tabs = [
-		'W liczbach' => 'counts',
+		'Liczby' => 'counts',
+		'Czas' => 'times',
 	];
 ?>
   <ul>
