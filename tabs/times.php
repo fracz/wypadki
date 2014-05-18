@@ -3,7 +3,7 @@
 google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        	["Pora roku", "Średnia ilość wypadków"],
+        	["Pora roku", "Średnia liczba wypadków"],
         	["Wiosna", 2168 + 2318 + 3108],    
         	["Lato", 3375 + 3646 + 3645],
         	["Jesień", 3590 + 3645 + 3059],
@@ -25,7 +25,7 @@ google.setOnLoadCallback(drawChart);
 google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        	["Dzień tygodnia", "Średnia ilość wypadków"],
+        	["Dzień tygodnia", "Średnia liczba wypadków"],
         	["Poniedziałek", 5255],
         	["Wtorek", 5206],
         	["Środa", 5060],
@@ -49,7 +49,7 @@ google.setOnLoadCallback(drawChart);
 google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        	["Dzień tygodnia", "Średnia ilość wypadków"],
+        	["Dzień tygodnia", "Średnia liczba wypadków"],
         	["00", 384],
         	["01", 318],
         	["02", 269],

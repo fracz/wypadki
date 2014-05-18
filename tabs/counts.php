@@ -3,7 +3,7 @@
 google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        	["Rok", "Ilość wypadków", "Ilość samochodów (x1000)"],
+        	["Rok", "Liczba wypadków", "Liczba samochodów (x1000)"],
         	[new Date("2004-01-01"), 51069, 15899.185],    
         	[new Date("2005-01-01"), 48100, 16701.072],
         	[new Date("2006-01-01"), 46876, 16815.923],
@@ -17,7 +17,7 @@ google.setOnLoadCallback(drawChart);
         ]);
 
         var options = {
-          title: 'Ilość wypadków w zależności od ilości samochodów zarejestrowanych w Polsce',
+          title: 'Liczba wypadków w zależności od ilości samochodów zarejestrowanych w Polsce',
 		  trendlines: { 0: {}, 1 : {} }
         };
 
@@ -32,7 +32,7 @@ google.setOnLoadCallback(drawChart);
 google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-        	["Rok", "Ilość zabitych", "Ilość rannych (x10)"],
+        	["Rok", "Liczba zabitych", "Liczba rannych (x10)"],
         	[new Date("2004-01-01"), 5712, 6466.1],    
         	[new Date("2005-01-01"), 5444, 6119.1],
         	[new Date("2006-01-01"), 5243, 5912.3],
@@ -46,7 +46,7 @@ google.setOnLoadCallback(drawChart);
         ]);
 
         var options = {
-          title: 'Ilość zabitych i rannych w wypadkach drogowych w Polsce',
+          title: 'Liczba zabitych i rannych w wypadkach drogowych w Polsce',
 		  trendlines: { 0: {}, 1 : {} }
         };
 

@@ -19,10 +19,14 @@
 <h1>Integracja różnych źródeł danych opisujących wpływ na wypadki drogowe</h1>
 <div id="tabs">
 <?php 
-	$tabs = [
+	$tabs = array(
 		'Liczby' => 'counts',
 		'Czas' => 'times',
-	];
+		'Lokalizacja - Polska' => 'pl',
+		'Świat' => 'world',
+		'Wiek kierujących' => 'ages',
+		'Warunki pogodowe' => 'weather',
+	);
 ?>
   <ul>
   	<?php 
